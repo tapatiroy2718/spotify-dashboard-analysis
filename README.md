@@ -1,6 +1,6 @@
 # 🎧 Spotify User Behavior Dashboard Analysis
 
-## 📊 Project Overview
+##  Project Overview
 
 This project showcases an interactive **Spotify User Behavior Dashboard** created using **Google Sheets**, focusing on analyzing how users interact with a music streaming platform.
 
@@ -15,7 +15,7 @@ The goal of this project is to transform raw data into meaningful insights throu
 
 ---
 
-## 🖼️ Dashboard Preview
+##  Dashboard Preview
 <p align="center">
   <img src="spotify_dashboard.png" width="700"/>
 </p>
@@ -23,7 +23,7 @@ The goal of this project is to transform raw data into meaningful insights throu
 
 ---
 
-## 📁 Dataset Information
+##  Dataset Information
 
 * **File Name:** spotify_user_data.xlsx
 * **Total Records:** Up to 5000 entries
@@ -31,7 +31,7 @@ The goal of this project is to transform raw data into meaningful insights throu
 
 ---
 
-## 📚 Data Description
+##  Data Description
 
 | Column Name         | Description                        | Data Type   |
 | ------------------- | ---------------------------------- | ----------- |
@@ -45,36 +45,36 @@ The goal of this project is to transform raw data into meaningful insights throu
 
 ---
 
-## 📈 Key Observations
+##  Key Observations
 
-* 🎯 Users with premium subscriptions tend to have higher listening time
-* ✅ A majority of users remain active on the platform
-* 🎵 Genres such as Pop, Bollywood, and Latin dominate user preferences
-* 📊 Listening patterns differ significantly across age groups
+*  Users with premium subscriptions tend to have higher listening time
+*  A majority of users remain active on the platform
+*  Genres such as Pop, Bollywood, and Latin dominate user preferences
+*  Listening patterns differ significantly across age groups
 
 ---
 
-## 🔍 Analytical Focus Areas
+##  Analytical Focus Areas
 
-### 👥 Engagement Analysis
+###  Engagement Analysis
 
 Evaluate differences in activity between Free and Premium users
 
-### 📅 Growth Trends
+###  Growth Trends
 
 Track user acquisition using signup dates
 
-### 🧠 Behavioral Patterns
+###  Behavioral Patterns
 
 Analyze how age influences listening time and preferences
 
-### 🎶 Genre Insights
+###  Genre Insights
 
 Identify trending and most popular genres
 
 ---
 
-## 🧹 Data Preparation
+##  Data Preparation
 
 * Cleaned missing and inconsistent values
 * Standardized date formats
@@ -83,34 +83,33 @@ Identify trending and most popular genres
 
 ---
 
-## 📊 Dashboard Highlights
+##   Dashboard Highlights
 
-* 📌 Key Performance Indicators (KPIs)
+*  Key Performance Indicators (KPIs)
 
   * Total Users
   * Active Users
   * Average Listening Time
 
-* 📊 Subscription Breakdown
+*  Subscription Breakdown
 
-* 🎵 Genre Popularity Visualization
+*  Genre Popularity Visualization
 
-* ⏱️ Listening Time Analysis
+*  Listening Time Analysis
 
-* 🎛️ Interactive Slicers for dynamic filtering
+*  Interactive Slicers for dynamic filtering
 
 ---
 
-## 🛠️ Tools & Technologies
+##  Tools & Technologies
 
 * Google Sheets
-* Microsoft Excel
 * Pivot Tables
 * Data Visualization Techniques
 
 ---
 
-## 🚀 How to Explore
+##  How to Explore
 
 1. Open the dataset in Excel or Google Sheets
 2. Review pivot tables and charts
