@@ -118,12 +118,10 @@ Identify trending and most popular genres
 
 ---
 
-## 📌 Summary
+##  Summary
 
 This project demonstrates how structured data can be used to uncover insights into **user behavior, engagement trends, and music preferences**. It serves as a practical example for data analysis, visualization, and dashboard creation.
 
 ---
 
-## ⭐ Feedback
 
-If you found this project helpful, consider giving it a ⭐ and sharing your thoughts!
