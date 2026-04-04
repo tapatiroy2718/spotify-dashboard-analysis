@@ -16,10 +16,11 @@ The goal of this project is to transform raw data into meaningful insights throu
 ---
 
 ##  Dashboard Preview
-<p align="center">
-  <img src="spotify_dashboard.png" width="700"/>
-</p>
-![Dashboard](spotify_dashboard.png)
+
+
+
+![Spotify Dashboard](Spotify_dashboard.png)
+
 
 ---
 
