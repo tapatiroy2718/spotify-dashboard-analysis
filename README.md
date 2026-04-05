@@ -1,9 +1,11 @@
 # 🎧 Spotify User Analytics Dataset
 
-##  Project Overview
+## 📊 Project Overview
 This dataset captures user activity and engagement on Spotify. It is designed to support user behavior analysis, subscription insights, and engagement tracking.
 
 The dataset powers an interactive dashboard built using Google Sheets, helping visualize listening habits, feature usage, and churn patterns.
+
+![Dashboard Preview](images/spotify.webp)
 
 
 
