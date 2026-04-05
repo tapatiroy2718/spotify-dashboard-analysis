@@ -1,128 +1,136 @@
-# 🎧 Spotify User Behavior Dashboard Analysis
+# 🎧 Spotify User Analytics Dataset
 
 ##  Project Overview
+This dataset captures user activity and engagement on Spotify. It is designed to support user behavior analysis, subscription insights, and engagement tracking.
 
-This project showcases an interactive **Spotify User Behavior Dashboard** created using **Google Sheets**, focusing on analyzing how users interact with a music streaming platform.
-
-The dataset represents simulated user activity and is structured to explore patterns in:
-
-* Listening habits
-* Subscription choices
-* User engagement levels
-* Music preferences
-
-The goal of this project is to transform raw data into meaningful insights through visualization and analysis.
-
----
-
-##  Dashboard Preview
+The dataset powers an interactive dashboard built using Google Sheets, helping visualize listening habits, feature usage, and churn patterns.
 
 
 
-![Spotify Dashboard](Spotify_dashboard.png)
+##  File Details
 
+- **Filename:** `spotify_user_analytics.csv`  
+- **Total Records:** 5000  
+- **Primary Key:** `user_id`  
 
 ---
 
-##  Dataset Information
+##  Data Dictionary
 
-* **File Name:** spotify_user_data.xlsx
-* **Total Records:** Up to 5000 entries
-* **Unique Identifier:** user_id
-
----
-
-##  Data Description
-
-| Column Name         | Description                        | Data Type   |
-| ------------------- | ---------------------------------- | ----------- |
-| user_id             | Unique user identifier             | Integer     |
-| age                 | User age                           | Integer     |
-| subscription_type   | Type of plan (Free / Premium)      | Categorical |
-| subscription_status | Current status (Active / Inactive) | Categorical |
-| signup_date         | Registration date                  | Date        |
-| avg_listening_hours | Daily average listening time       | Float       |
-| favorite_genre      | Preferred music category           | Categorical |
+| Column Name | Description | Data Type |
+|------------|------------|----------|
+| user_id | Unique identifier for each user | String |
+| country | User location | Categorical |
+| age | User age | Integer |
+| subscription_type | Free, Premium Individual, Student, Family | Categorical |
+| listening_hours_per_week | Avg weekly listening hours | Float |
+| playlists_created | Number of playlists created | Integer |
+| favorite_genre | Preferred genre (Electronic, Hip-Hop, R&B) | Categorical |
+| primary_device | Device used (Mobile, Desktop, Tablet) | Categorical |
+| subscription_status | Active / Inactive | Categorical |
+| liked_feature | Most liked feature | Categorical |
+| months_inactive | Number of inactive months | Integer |
+| inactive_3_months_flag | Indicates churn risk | Boolean |
+| activation_month | Month of activation | Integer |
 
 ---
 
-##  Key Observations
+##  Key Insights & Statistics
 
-*  Users with premium subscriptions tend to have higher listening time
-*  A majority of users remain active on the platform
-*  Genres such as Pop, Bollywood, and Latin dominate user preferences
-*  Listening patterns differ significantly across age groups
+-  **Total Users:** 5000  
+-  **Avg Listening Hours:** 9.62 hrs/week  
+-  **Avg Playlists Created:** 8.38  
+-  **Avg Age:** 39.36  
+-  **Avg Activation Month:** 1.21  
 
----
+###  Subscription Distribution
+- Free: ~51%  
+- Premium Individual: ~32%  
+- Student: ~11%  
+- Family: ~5%  
 
-##  Analytical Focus Areas
+###  Listening Behavior
+- R&B users have the highest engagement (~14.8 hrs/week)  
+- Electronic and Hip-Hop show moderate usage  
 
-###  Engagement Analysis
+###  Feature Popularity
+- Most liked: Playlists  
+- Followed by: Podcasts, Offline Mode, AI DJ  
 
-Evaluate differences in activity between Free and Premium users
-
-###  Growth Trends
-
-Track user acquisition using signup dates
-
-###  Behavioral Patterns
-
-Analyze how age influences listening time and preferences
-
-###  Genre Insights
-
-Identify trending and most popular genres
-
----
-
-##  Data Preparation
-
-* Cleaned missing and inconsistent values
-* Standardized date formats
-* Reduced dataset size for efficient analysis
-* Built pivot tables for summarization
+###  User Engagement
+- Active Users: ~80%  
+- Inactive Users: ~20%  
 
 ---
 
-##   Dashboard Highlights
+##  Analysis Suggestions
 
-*  Key Performance Indicators (KPIs)
+- **User Engagement Analysis**  
+  Compare listening hours across subscription types  
 
-  * Total Users
-  * Active Users
-  * Average Listening Time
+- **Churn Analysis**  
+  Use `months_inactive` and `inactive_3_months_flag`  
 
-*  Subscription Breakdown
+- **Feature Optimization**  
+  Identify features driving retention  
 
-*  Genre Popularity Visualization
+- **Genre Trends**  
+  Analyze listening behavior by genre  
 
-*  Listening Time Analysis
-
-*  Interactive Slicers for dynamic filtering
-
----
-
-##  Tools & Technologies
-
-* Google Sheets
-* Pivot Tables
-* Data Visualization Techniques
+- **Demographic Analysis**  
+  Study age vs listening patterns  
 
 ---
 
-##  How to Explore
+##  Data Cleaning Notes
 
-1. Open the dataset in Excel or Google Sheets
-2. Review pivot tables and charts
-3. Use slicers to filter and interact with data
-4. Analyze trends and derive insights
-
----
-
-##  Summary
-
-This project demonstrates how structured data can be used to uncover insights into **user behavior, engagement trends, and music preferences**. It serves as a practical example for data analysis, visualization, and dashboard creation.
+- Validate unique `user_id` values  
+- Ensure numeric fields are correctly formatted  
+- Standardize categorical values  
+- Handle missing or inconsistent entries  
 
 ---
 
+##  Tools Used
+
+- Google Sheets  
+- Pivot Tables  
+- Charts & Data Visualization  
+- Dashboard Design  
+
+
+
+##  How to Use
+
+1. Upload dataset to Google Sheets  
+2. Clean and prepare data  
+3. Create pivot tables and charts  
+4. Build interactive dashboard  
+5. Use filters:
+   - Country  
+   - Subscription Type  
+   - Genre  
+   - Device  
+
+---
+
+##  Use Cases
+
+- User behavior analysis  
+- Subscription strategy insights  
+- Feature usage tracking  
+- Churn detection  
+- Data analytics portfolio project  
+
+---
+
+##  Future Improvements
+
+- Predictive churn modeling  
+- Cohort analysis  
+- Real-time data integration  
+- Advanced segmentation  
+
+---
+Generated for Spotify Dataset Dashboard Analysis.
 
