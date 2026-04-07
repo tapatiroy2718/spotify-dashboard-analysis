@@ -126,6 +126,8 @@ The dataset powers an interactive dashboard built using Google Sheets, helping v
 
 ---
 
+![Dashboard Preview]()
+
 ##  Future Improvements
 
 - Predictive churn modeling  
