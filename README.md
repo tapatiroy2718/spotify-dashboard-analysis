@@ -126,7 +126,10 @@ The dataset powers an interactive dashboard built using Google Sheets, helping v
 
 ---
 
-![Dashboard Preview]()
+## Dashboard Preview
+
+![Spotify Dashboard](images/spotify_dashboard.png)
+
 
 ##  Future Improvements
 
